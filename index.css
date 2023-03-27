@@ -395,6 +395,7 @@ html {
 
 
 .about .about_main{
+    width: 100%;
     position: relative;
     left: 670px; 
     padding-top: 700px;
@@ -402,11 +403,13 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .about .about_main .about_image{
     display: flex;
     margin-top: 50px;
+    padding-left: 70px;
 }
 
 .about .about_main .about_image .about_small_image{
@@ -415,6 +418,7 @@ html {
     position: relative;
     top: 15px;
 }
+
 
 .about .about_main .about_image .about_small_image img{
     height: 92px;
